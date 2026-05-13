@@ -1,5 +1,5 @@
 import { create } from 'zustand';
-import { db, initDb } from '../lib/db';
+import { db } from '../lib/db';
 
 interface SyncState {
   status: 'initializing' | 'ready' | 'syncing' | 'error';
